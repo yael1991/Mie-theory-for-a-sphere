@@ -1,4 +1,4 @@
-%%Calcula los an.
+%%Calculation of the an coefficients
 
 function an=coeficientes_an(indice, lambda, n, a)
 

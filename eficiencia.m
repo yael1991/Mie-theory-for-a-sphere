@@ -5,8 +5,6 @@
 
 function [Q, a1, a2, b1, b2]=eficiencia(indices,lambdas,nmax,a)
 
-
-
 maxi=length(lambdas) %number of wavelength to be considered.
 
 for j=1:maxi

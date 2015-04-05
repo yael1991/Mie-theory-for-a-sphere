@@ -1,4 +1,4 @@
-%%Calcula los bn.
+%%Calculation of the bn coefficients
 
 function bn=coeficientes_bn(indice, lambda, n, a)
 

@@ -1,6 +1,7 @@
 function PL=PL90(indices,lambdas,a)
 
 maxi=length(lambdas) %number of wavelength to be considered.
+
 for j=1:maxi
 
         
