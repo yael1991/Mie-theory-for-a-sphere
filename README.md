@@ -1,3 +1,8 @@
+
 # Mie-theory-for-a-sphere
-Matlab code for calculating the Mie absorption, scattering and extinction cross-sections.  
-It also calculates the electric and magnetic dipolar and quadrupolar contributions to the total cross-sections.
+
+Mie theory coded in Matlab.
+
+* Absorption, Scattering and Extinction cross-sections.
+* Electric and magnetic dipolar and quadrupolar contributions to the cross-sections.
+* Linear polarization degree at rigth angle.
