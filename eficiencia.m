@@ -8,8 +8,7 @@ function [Q, a1, a2, b1, b2]=eficiencia(indices,lambdas,nmax,a)
 
 
 maxi=length(lambdas) %number of wavelength to be considered.
-figure;
-hold on
+
 for j=1:maxi
     
         qsca=0;
@@ -24,9 +23,8 @@ for j=1:maxi
     for n=1:1:nmax
         
         an = coeficientes_an(indices(j),lambdas(j),n,a);
-        plot(lambdas(j),(an*conj(an)),'.r')
         bn = coeficientes_bn(indices(j),lambdas(j),n,a);
-        plot(lambdas(j),(bn*conj(bn)),'.')
+
          
         
         if n==1 %dipolar contribution
@@ -93,8 +91,8 @@ xmax = max(lambdas);
 xmin_ev = min(ev);
 xmax_ev = max(ev);
 ymax_s = max(Qsca)+0.2;
-ymax_e = max(Qabs)+0.2;
-ymax_a = max(Qext)+0.2;
+ymax_e = max(Qext)+0.2;
+ymax_a = max(Qabs)+0.2;
 
 
 
@@ -131,7 +129,7 @@ ylabel('Q_s_c_a','FontSize',20);
 l=legend('a1','b1', 'a2', 'b2', 'Q_s_c_a','Location','northeast' );
 set(l,'FontSize',20);
 set(gca,'FontSize',16);
-axis([xmin xmax 0 ymax_s])
+axis([xmin_ev xmax_ev 0 ymax_s])
 legend boxoff;
 title('Scattering cross section')
 box on;
@@ -149,7 +147,7 @@ ylabel('Q_s_c_a','FontSize',20);
 l=legend('a1','b1', 'a2', 'b2', 'Q_s_c_a','Location','northwest' );
 set(l,'FontSize',20);
 set(gca,'FontSize',16);
-axis([xmin_ev xmax_ev 0 ymax_s])
+axis([xmin xmax 0 ymax_s])
 legend boxoff;
 title('Scattering cross section')
 box on;
@@ -173,7 +171,7 @@ ylabel('Q_e_x_t','FontSize',20);
 l=legend('a1','b1', 'a2', 'b2', 'Q_e_x_t','Location','northwest' );
 set(l,'FontSize',20);
 set(gca,'FontSize',16);
-axis([xmin xmax 0 ymax_e])
+axis([xmin_ev xmax_ev 0 ymax_e])
 legend boxoff;
 title('Extinction cross section')
 box on;
@@ -191,7 +189,7 @@ ylabel('Q_e_x_t','FontSize',20);
 l=legend('a1','b1', 'a2', 'b2', 'Q_e_x_t','Location','northeast' );
 set(l,'FontSize',20);
 set(gca,'FontSize',16);
-axis([xmin_ev xmax_ev 0 ymax_e])
+axis([xmin xmax 0 ymax_e])
 legend boxoff;
 title('Extinction cross section')
 box on;
@@ -213,7 +211,7 @@ ylabel('Q_a_b_s','FontSize',20);
 l=legend('a1','b1', 'a2', 'b2', 'Q_a_b_s','Location','northwest' );
 set(l,'FontSize',20);
 set(gca,'FontSize',16);
-axis([xmin xmax 0 ymax_a])
+axis([xmin_ev xmax_ev 0 ymax_a])
 legend boxoff;
 title('Absorption cross section')
 box on;
@@ -231,7 +229,7 @@ ylabel('Q_a_b_s','FontSize',20);
 l=legend('a1','b1', 'a2', 'b2', 'Q_a_b_s','Location','northeast' );
 set(l,'FontSize',20);
 set(gca,'FontSize',16);
-axis([xmin_ev xmax_ev 0 ymax_a])
+axis([xmin xmax 0 ymax_a])
 legend boxoff;
 title('Absorption cross section')
 box on;
