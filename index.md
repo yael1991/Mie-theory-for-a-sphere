@@ -47,3 +47,9 @@ PL = PL90(indices, lambdas, a)
   **lambdas**: is a vector of wavelengths for which the calculations will be computed.
   **indices**: is a vector containing the complex refractive index of the sphere for the wavelenghts contained in **lambdas**.
   **a**: sphere radius.
+  
+* a
+ * b
+
+
+ 
