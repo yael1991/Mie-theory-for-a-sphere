@@ -10,7 +10,7 @@ The scattering (*Q_sca*) and extinction cross-sections (*Q_ext*) of a sphere can
 
 ![formula](https://render.githubusercontent.com/render/math?math=Q_{ext}=\frac{2}{x^2}\sum_{n=1}^{\infty}(2n%2B1)Re(a_n%2Bb_n))
 
-![formula](https://render.githubusercontent.com/render/math?math=Q_{sca}=\frac{2}{x^2}\sum_{n=1}^{\infty}(2n+1)(\mida_n\mid^2+\midb_n\mid^2))
+![formula](https://render.githubusercontent.com/render/math?math=Q_{sca}=\frac{2}{x^2}\sum_{n=1}^{\infty}(2n%2B1)(\mid\a_n\mid^2%2B\mid\b_n\mid^2))
 
 Due to energy conservation, the extinguished radiation may be equal to the sum of the scattered and absorbed radiation. As a result of this, it is possible to give an expression for the absorption efficiency, *Q_abs*.
 
