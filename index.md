@@ -15,6 +15,8 @@ The scattering (_**Qsca**_) and extinction cross-sections (_**Qext**_) of a sphe
 Due to energy conservation, the extinguished radiation may be equal to the sum of the scattered and absorbed radiation. As a result of this, it is possible to give an expression for the absorption efficiency, _**Qabs**_.
 
 ![formula](https://render.githubusercontent.com/render/math?math=Q_{abs}=Q_{ext}-Q_{sca})
+
+For more a deeper explanation on Mie theory check: *Craig F. Bohren* and *Donald R. Huffman* **Absorption and scattering of light by small particles** WILEY‐VCH 1983 DOI:10.1002/9783527618156
  
 ### 2. What do the **Mie-theory-for-a-sphere** does?
  
