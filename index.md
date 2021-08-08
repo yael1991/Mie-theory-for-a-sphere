@@ -1,4 +1,9 @@
 # Mie Theory 
 
-### Scattering by a Sphere
- ![Boundary Conditions](Examples/cross_section copia.png)
+### 1. Scattering by a Sphere
+ 
+ 
+### 2. What does the **Mie-theory-for-a-sphere** does?
+ 
+ 
+ ![cross_section](Examples/cross_section copia.png)
