@@ -35,8 +35,6 @@ To run it just execute the following line:
  *  **indices**: is a vector containing the complex refractive index of the sphere for the wavelenghts contained in **lambdas**.
  *  **nmax**: is the maximum multipolar order to include in the calculation.
  *  **a**: sphere radius.
-
- ![effy](Examples/cross_section copia.png)
  
 - [**PL90.m**](https://github.com/yael1991/Mie-theory-for-a-sphere/blob/master/PL90.m) calculates the linear polarization degree at rigth angle. It is defined as:     
 ![formula](https://render.githubusercontent.com/render/math?math=PL(90^{o})=\frac{I_s(90^{o})-Ip(90^{o})}{I_s(90^{o})+Ip(90^{o})})
