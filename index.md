@@ -6,7 +6,7 @@ The solutions of the absorbed and scattered fields are developed into vector sph
  
 The scattering (*Q_sca*) and extinction cross-sections (*Q_ext*) of a sphere can be expressed in terms of the Mie scattering coefficients as
 
-![formula](https://render.githubusercontent.com/render/math?math=Q_{ext}=\frac{2}{x^2}\sum_{n=1}^{\infty}(2n+1)Re(a_n+b_n))
+![formula](https://render.githubusercontent.com/render/math?math=Q_{ext}=\frac{2}{x^2}\sum_{n=1}^{\infty}(2n+1)Re(a_n\pb_n))
 
 ![formula](https://render.githubusercontent.com/render/math?math=Q_{sca}=\frac{2}{x^2}\sum_{n=1}^{\infty}(2n+1)(\left|a_n\right|^2+\left|b_n\right|^2))
 
@@ -21,7 +21,5 @@ Due to energy conservation, the extinguished radiation may be equal to the sum o
 - Absorption, Scattering and Extinction cross-sections (*Q_abs*, *Q_sca* and *Q_ext*).
 - Electric and magnetic dipolar and quadrupolar contributions to the cross-sections (*a_1* dipolar electric, *b_1* dipolar magnetic, *a_2* quadrupolar electric and *b_2* quadrupolar magnetic).
 - Linear polarization degree at rigth angle (*PL(90)*).
-
-![f
 
  ![cross_section](Examples/cross_section copia.png)
