@@ -1,5 +1,4 @@
-#### By Yael Gutiérrez
-#### Institute of Nanotechnology, CNR-NANOTEC, via Orabona 4, 70126 Bari, Italy.
+**By Yael Gutiérrez at Institute of Nanotechnology, CNR-NANOTEC, via Orabona 4, 70126 Bari, Italy.**
 
 # Mie Theory 
 
