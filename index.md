@@ -14,7 +14,7 @@ Due to energy conservation, the extinguished radiation may be equal to the sum o
 
 ![formula](https://render.githubusercontent.com/render/math?math=Q_{abs}=Q_{ext}-Q_{sca})
 
-where *n* is the multipolar order and ![formula](https://render.githubusercontent.com/render/math?math=x=\frac{2\pi a}{\lambda}) 
+where *n* is the multipolar order and ![formula](https://render.githubusercontent.com/render/math?math=x=\frac{2aN_{sphere}\pi}{N_{medium}\lambda}) 
  
 ### 2. What does the **Mie-theory-for-a-sphere** does?
  
