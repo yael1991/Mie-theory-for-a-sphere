@@ -3,16 +3,16 @@
 # Mie Theory 
 
 ### 1. Light scattering and light absorption by a Sphere
-Mie’s Theory provides a way to calculate analytically the field scattered and absorbed by spheres of arbitrary radius, *a*, and refractive index, *N*. By expanding the incident electromagnetic wave into spherical harmonics, Gustav Mie was able to solve the Maxwell equations for this kind of geometry taking into account the boundary condition between the sphere and the medium that surrounds it.
-The solutions of the absorbed and scattered fields are developed into vector spherical harmonics. Both solutions depend on different coeffients which are called Mie coeffients. On the one hand, there are the scattering coefficients which are usually denoted as *a_n* and *b_n*. On the other hand, there are the coefficients related to the  field inside the sphere, *c_n* and *d_n*. 
+Mie’s Theory provides a way to calculate analytically the field scattered and absorbed by spheres of arbitrary radius, _**a**_, and refractive index, _**N**_. By expanding the incident electromagnetic wave into spherical harmonics, Gustav Mie was able to solve the Maxwell equations for this kind of geometry taking into account the boundary condition between the sphere and the medium that surrounds it.
+The solutions of the absorbed and scattered fields are developed into vector spherical harmonics. Both solutions depend on different coeffients which are called Mie coeffients. On the one hand, there are the scattering coefficients which are usually denoted as _**a_n*_ and _**b_n*_. On the other hand, there are the coefficients related to the  field inside the sphere, _**c_n**_ and _**d_n**_. 
  
-The scattering (*Q_sca*) and extinction cross-sections (*Q_ext*) of a sphere can be expressed in terms of the Mie scattering coefficients as
+The scattering (_**Q_sca**_) and extinction cross-sections (_**Q_ext**_) of a sphere can be expressed in terms of the Mie scattering coefficients as
 
 ![formula](https://render.githubusercontent.com/render/math?math=Q_{ext}=\frac{2}{x^2}\sum_{n=1}^{\infty}(2n%2B1)Re(a_n%2Bb_n))
 
 ![formula](https://render.githubusercontent.com/render/math?math=Q_{sca}=\frac{2}{x^2}\sum_{n=1}^{\infty}(2n%2B1)(\mid\a_n\mid^2%2B\mid\b_n\mid^2))
 
-Due to energy conservation, the extinguished radiation may be equal to the sum of the scattered and absorbed radiation. As a result of this, it is possible to give an expression for the absorption efficiency, *Q_abs*.
+Due to energy conservation, the extinguished radiation may be equal to the sum of the scattered and absorbed radiation. As a result of this, it is possible to give an expression for the absorption efficiency, _**Q_abs**_.
 
 ![formula](https://render.githubusercontent.com/render/math?math=Q_{abs}=Q_{ext}-Q_{sca})
  
@@ -20,8 +20,8 @@ Due to energy conservation, the extinguished radiation may be equal to the sum o
  
 **Mie-theory-for-a-sphere** calculates:
 - Absorption, Scattering and Extinction cross-sections .
-- Electric and magnetic dipolar and quadrupolar contributions to the cross-sections (*a_1* dipolar electric, *b_1* dipolar magnetic, *a_2* quadrupolar electric and *b_2* quadrupolar magnetic).
-- Linear polarization degree at rigth angle (*PL(90)*).
+- Electric and magnetic dipolar and quadrupolar contributions to the cross-sections (_**a_1**_ dipolar electric, _**b_1**_ dipolar magnetic, _**a_2**_ quadrupolar electric and _**b_2**_ quadrupolar magnetic).
+- Linear polarization degree at rigth angle (_**PL(90)**_).
 
 ### 3. How does the code work?
 There are two main functions:
