@@ -1,3 +1,3 @@
 # Mie Theory 
 
-## Scattering by a Sphere
+### Scattering by a Sphere
