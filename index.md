@@ -19,19 +19,28 @@ Due to energy conservation, the extinguished radiation may be equal to the sum o
 ### 2. What do the **Mie-theory-for-a-sphere** does?
  
 **Mie-theory-for-a-sphere** calculates:
-- Absorption, Scattering and Extinction cross-sections (*Q_abs*, *Q_sca* and *Q_ext*).
+- Absorption, Scattering and Extinction cross-sections .
 - Electric and magnetic dipolar and quadrupolar contributions to the cross-sections (*a_1* dipolar electric, *b_1* dipolar magnetic, *a_2* quadrupolar electric and *b_2* quadrupolar magnetic).
 - Linear polarization degree at rigth angle (*PL(90)*).
 
 ### 3. How does the code work?
 There are two main functions:
-- [**eficiencia.m**](https://github.com/yael1991/Mie-theory-for-a-sphere/blob/master/eficiencia.m) calculates the absorption *Q_abs*, scattering *Q_sca* and extinction *Q_ext* efficiencies along with the 
-*a_1* dipolar electric, *b_1* dipolar magnetic, *a_2* quadrupolar electric and *b_2* quadrupolar magnetic.
+- [**eficiencia.m**](https://github.com/yael1991/Mie-theory-for-a-sphere/blob/master/eficiencia.m) calculates the absorption, scattering and extinction efficiencies along with the 
+dipolar electric, dipolar magnetic, quadrupolar electric and quadrupolar magnetic.
+To run it just run the following line:
 ```
 [Q, a1, a2, b1, b2] = eficiencia(indices,lambdas,nmax,a)
+% lambdas: is a vector of wavelengths for which the calculations will be computed.
+% indices: is a vector containing the complex refractive index of the sphere for the wavelenghts contained in lambdas.
+% nmax: is the maximum multipolar order to include in the calculation
+% a: sphere radius
 ```
+as an output you will get:
 
-
+```
+% Q = [];
+% a1 
+```
 
  ![effy](Examples/cross_section copia.png)
  
