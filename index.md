@@ -25,7 +25,11 @@ Due to energy conservation, the extinguished radiation may be equal to the sum o
 
 ### 3. How the code works?
 There are two main functions:
-- *eficiencias.m*:
-- *PL90.m*: 
+- _eficiencias.m_: 
 
  ![cross_section](Examples/cross_section copia.png)
+ 
+- _PL90.m_: 
+
+
+ ![cross_section](Examples/PL.png)
