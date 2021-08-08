@@ -25,10 +25,10 @@ Due to energy conservation, the extinguished radiation may be equal to the sum o
 
 ### 3. How does the code work?
 There are two main functions:
-- [**eficiencia.m**](https://github.com/yael1991/Mie-theory-for-a-sphere/blob/master/eficiencia.m)
-
+- [**eficiencia.m**](https://github.com/yael1991/Mie-theory-for-a-sphere/blob/master/eficiencia.m) calculates the absorption *Q_abs*, scattering *Q_sca* and extinction *Q_ext* efficiencies along with the 
+*a_1* dipolar electric, *b_1* dipolar magnetic, *a_2* quadrupolar electric and *b_2* quadrupolar magnetic.
 ```
-function [Q, a1, a2, b1, b2]=eficiencia(indices,lambdas,nmax,a)
+[Q, a1, a2, b1, b2] = eficiencia(indices,lambdas,nmax,a)
 ```
 
 
