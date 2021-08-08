@@ -25,7 +25,13 @@ Due to energy conservation, the extinguished radiation may be equal to the sum o
 
 ### 3. How does the code work?
 There are two main functions:
-- [**eficiencia.m**](https://github.com/yael1991/Mie-theory-for-a-sphere/blob/master/eficiencia.m): 
+- [**eficiencia.m**](https://github.com/yael1991/Mie-theory-for-a-sphere/blob/master/eficiencia.m)
+
+```
+function [Q, a1, a2, b1, b2]=eficiencia(indices,lambdas,nmax,a)
+```
+
+
 
  ![effy](Examples/cross_section copia.png)
  
