@@ -29,18 +29,12 @@ There are two main functions:
 dipolar electric, dipolar magnetic, quadrupolar electric and quadrupolar magnetic.
 To run it just run the following line:
 ```
-[Q, a1, a2, b1, b2] = eficiencia(indices,lambdas,nmax,a)
-% lambdas: is a vector of wavelengths for which the calculations will be computed.
-% indices: is a vector containing the complex refractive index of the sphere for the wavelenghts contained in lambdas.
-% nmax: is the maximum multipolar order to include in the calculation
-% a: sphere radius
+[Q, a1, a2, b1, b2] = eficiencia(indices, lambdas, nmax ,a)
 ```
-as an output you will get:
-
-```
-% Q = [];
-% a1 
-```
+- [x]**lambdas**: is a vector of wavelengths for which the calculations will be computed.
+- [x]**indices**: is a vector containing the complex refractive index of the sphere for the wavelenghts contained in **lambdas**.
+- [x]**nmax**: is the maximum multipolar order to include in the calculation.
+- [x]**a**: sphere radius.
 
  ![effy](Examples/cross_section copia.png)
  
